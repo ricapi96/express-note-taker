@@ -10,6 +10,7 @@ This is a note taking application used to write and save notes using Express.js.
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshots](#screenshots)
 * [License](#license)
 * [Contributing](#contributing)
 * [Badge](#badge)
@@ -26,6 +27,11 @@ npm inquirer
 ## Usage  
 
 
+## Screenshots
+
+![](./assets/images/10-object-oriented-programming-homework-demo.png)
+
+![](./assets/images/10-object-oriented-programming-homework-demo.png)
 
 
 ## Contributing
