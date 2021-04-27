@@ -29,9 +29,9 @@ npm inquirer
 
 ## Screenshots
 
-![](./assets/images/10-object-oriented-programming-homework-demo.png)
+![Demo-1](./develop/public/assets/note-demo1.png)
 
-![](./assets/images/10-object-oriented-programming-homework-demo.png)
+![Demo-2](./develop/public/assets/note-demo2.png)
 
 
 ## Contributing
