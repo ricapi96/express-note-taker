@@ -1,15 +1,19 @@
 const express = require('express');
-const http = require('http');
+
 
 const app = express();
-const PORT = 8082;
+const PORT = process.env.PORT || 8080;
+app.use(express.static('./public'));
+app.use(express.static('./data'));
 
-const handleRequest = (request, response) => {
-    response.end(`It works!! Booyah! Path Hit On: ${request.url}`);
-};
 
-const server = http.createServer(handleRequest);
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-server.listen(PORT, () => {
-    console.log(`Server listening on: http://localhost:${PORT}`);
+require('./routes/viewRoutes/viewRoutes')(app);
+
+require('./routes/apiRoutes')(app);
+
+app.listen(PORT, () => {
+    console.log(`App listening on: ${PORT}`);
 });
