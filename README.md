@@ -12,7 +12,6 @@ This is a note taking application used to write and save notes using Express.js.
 * [Usage](#usage)
 * [Screenshots](#screenshots)
 * [License](#license)
-* [Contributing](#contributing)
 * [Badge](#badge)
 * [Questions](#questions)
 
@@ -20,11 +19,13 @@ This is a note taking application used to write and save notes using Express.js.
 
 To install, run the following command:  
 ```
-npm inquirer
+npm i
 ```
 
 
-## Usage  
+## Usage 
+
+Create a note by entering a title and text and then click save. To view saved notes, click on them in the left side. Delete a note by clicking the trash icon.
 
 
 ## Screenshots
@@ -32,10 +33,6 @@ npm inquirer
 ![Demo-1](./develop/public/assets/note-demo1.png)
 
 ![Demo-2](./develop/public/assets/note-demo2.png)
-
-
-## Contributing
-
 
 
 ## License
