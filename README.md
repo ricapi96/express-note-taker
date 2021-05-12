@@ -30,9 +30,9 @@ Create a note by entering a title and text and then click save. To view saved no
 
 ## Screenshots
 
-![Demo-1](./develop/public/assets/note-demo1.png)
+![Demo-1](./public/assets/note-demo1.png)
 
-![Demo-2](./develop/public/assets/note-demo2.png)
+![Demo-2](./public/assets/note-demo2.png)
 
 
 ## License
