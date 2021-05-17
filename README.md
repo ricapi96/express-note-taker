@@ -19,7 +19,7 @@ This is a note taking application used to write and save notes using Express.js.
 
 To install, run the following command:  
 ```
-npm i
+npm i express
 ```
 
 
