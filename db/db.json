@@ -1,6 +1,12 @@
 [
-    {
-        "title":"Awesome Sauce!",
-        "text":"This is a note taker!"
-    }
+  {
+    "title": "Call Dad!",
+    "text": "He lives alone and needs to hear from you.",
+    "id": "ricapi96314a"
+  },
+  {
+    "title": "Get some veggies for dinner.",
+    "text": "Stick with the diet!",
+    "id": "ricapi96314b"
+  }
 ]
