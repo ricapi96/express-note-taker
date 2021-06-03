@@ -8,19 +8,11 @@ This is a note taking application used to write and save notes using Express.js.
 
 ## Table of Contents 
 * [Description](#description)
-* [Installation](#installation)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
 * [License](#license)
 * [Badge](#badge)
 * [Questions](#questions)
-
-## Installation
-
-To install, run the following command:  
-```
-npm i express
-```
 
 
 ## Usage 
