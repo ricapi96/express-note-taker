@@ -1,9 +1,9 @@
-let noteTitle;
-let noteText;
-let saveNoteBtn;
-let newNoteBtn;
-let noteList;
-let window;
+let noteTitle = ".note-title";
+let noteText = ".note-textarea";
+let saveNoteBtn = ".save-note";
+let newNoteBtn = ".new-note";
+let noteList = ".list-container .list-group";
+// let window;
 
 
 if (window.location.pathname === '/notes') {
@@ -61,9 +61,9 @@ const renderActiveNote = () => {
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.text;
   } else {
-    // noteTitle.value = '';
-    // noteText.value = '';
-    window.location.reload();
+    noteTitle.value = '';
+    noteText.value = '';
+    // window.location.reload();
   }
 };
 
@@ -92,14 +92,14 @@ const handleNoteDelete = (e) => {
 
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
-    // renderActiveNote();
+    renderActiveNote();
   });
 };
 
 // Sets the activeNote and displays it
 const handleNoteView = (e) => {
   e.preventDefault();
-  console.log(e);
+  // console.log(e);
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
   renderActiveNote();
 };
@@ -108,6 +108,7 @@ const handleNoteView = (e) => {
 const handleNewNoteView = (e) => {
   activeNote = {};
   renderActiveNote();
+  location.reload();
 };
 
 const handleRenderSaveBtn = () => {
