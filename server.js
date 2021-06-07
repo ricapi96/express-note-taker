@@ -12,10 +12,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-// require('./routes/htmlRoutes/htmlRoutes')(app);
-
-// require('./routes/apiRoutes')(app);
-
 // Home route
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./public", "index.html"));
@@ -34,9 +30,9 @@ app.get("/api/notes", (req, res) => {
   //route for database posting
   app.post("/api/notes", (req, res) => {
     const newNote = req.body;
-    const id = uniqId();
+    // const id = uniqId();
     console.log("Crating a new note.");
-    newNote.id = id;
+    // newNote.id = id;
     dbFile.push(newNote);
     console.log(dbFile);
     fs.writeFile("./db/db.json", JSON.stringify(dbFile), (err) =>
@@ -44,6 +40,7 @@ app.get("/api/notes", (req, res) => {
     );
   });
   
+//   Delete route
   app.delete("/api/notes/:id", (req, res) => {
     let jsonFilePath = path.join(__dirname, "/db/db.json");
   

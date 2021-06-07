@@ -22,9 +22,13 @@ Create a note by entering a title and text and then click save. To view saved no
 
 ## Screenshots
 
-![Demo-1](./public/assets/note-demo1.png)
+![Demo-1](./Assets/note-demo4.png)
 
-![Demo-2](./public/assets/note-demo2.png)
+![Demo-1](./Assets/note-demo1.png)
+
+![Demo-1](./Assets/note-demo2.png)
+
+![Demo-1](./Assets/note-demo3.png)
 
 
 ## License
