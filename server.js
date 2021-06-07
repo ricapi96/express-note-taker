@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const fs = require("fs");
-// const uniqId = require("uniqid");
+const { v4: uuidv4 } = require('uuid');
 const PORT = process.env.PORT || 5500;
 const dbFile = require("./db/db.json");
 app.use(express.static("./public"));
@@ -30,9 +30,9 @@ app.get("/api/notes", (req, res) => {
   //route for database posting
   app.post("/api/notes", (req, res) => {
     const newNote = req.body;
-    // const id = uniqId();
+    const id = uuidv4();
     console.log("Crating a new note.");
-    // newNote.id = id;
+    newNote.id = id;
     dbFile.push(newNote);
     console.log(dbFile);
     fs.writeFile("./db/db.json", JSON.stringify(dbFile), (err) =>
