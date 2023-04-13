@@ -11,7 +11,6 @@ This is a note taking application used to write and save notes using Express.js.
 * [Usage](#usage)
 * [Screenshots](#screenshots)
 * [License](#license)
-* [Badge](#badge)
 * [Questions](#questions)
 
 
@@ -35,11 +34,6 @@ Create a note by entering a title and text and then click save. To view saved no
 
 MIT
 https://opensource.org/licenses/MIT
-
-
-## Badge
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
 ## Questions
