@@ -10,6 +10,7 @@ This is a note taking application used to write and save notes using Express.js.
 * [Description](#description)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
+* [Deployed URL](#deployed-url)
 * [License](#license)
 * [Questions](#questions)
 
@@ -28,6 +29,9 @@ Create a note by entering a title and text and then click save. To view saved no
 ![Demo-1](./Assets/note-demo2.png)
 
 ![Demo-1](./Assets/note-demo3.png)
+
+## Deployed URL
+https://notetaker-0hle.onrender.com/notes
 
 
 ## License
